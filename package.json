@@ -1,11 +1,18 @@
 {
   "name": "cooldom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fast dom creation",
   "main": "index.js",
+  "repository": {
+    "url": "https://github.com/qin20/cooldom"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "qin20",
+  "license": "MIT",
+  "dependencies": {
+    "dom-css": "^2.1.0",
+    "prefix-style": "^2.0.1"
+  }
 }

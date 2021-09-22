@@ -1,9 +1,11 @@
-# dom
+# COOLDOM
 Fast dom creation
 
-## usage
+## USAGE
 ```js
-import dom, {domNS} from 'dom';
+import dom, {domNS} from 'cooldom';
+
+// dom(tagName, className?, style?, attrs?, children?)
 
 dom('div') // <div>
 dom('div', 'some-class') // <div class="some-class">
@@ -13,3 +15,5 @@ dom('div', 'some-class', {width: 100}, {id: 'some-id'})
 dom('<div>', {id: 'parent'} [dom('span', 'child')]) // <div id="parent"><span class="child"></span></div>
 domNS('svg') // <svg>
 ```
+---------------------
+The MIT License (MIT).
